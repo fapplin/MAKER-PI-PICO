@@ -75,6 +75,28 @@ for the UART reconfiguration to take effect. Once your Raspberry Pi has rebooted
 the "Programming" menu and follow the instructions from Section 7.2.
 
 
+Chapter 2. The SDK
+
+* IMPORTANT
+The following instructions assume that you are using a Raspberry Pi Pico and some details may differ if you are
+using a different RP2040-based board. They also assume you are using Raspberry Pi OS running on a Raspberry Pi 4,
+or an equivalent Debian-based Linux distribution running on another platform. Alternative instructions for those
+using Microsoft Windows (see Section 9.2) or Apple macOS (see Section 9.1) are also provided.
+
+The Raspberry Pi Pico is built around the RP2040 microcontroller designed by Raspberry Pi. Development on the board
+is fully supported with both a C/C++ SDK, and an official MicroPython port. This book talks about how to get started
+with the SDK, and walks you through how to build, install, and work with the SDK toolchain.
+
+* TIP
+For more information on the official MicroPython port see the Raspberry Pi Pico Python SDK book which documents
+the port, and Get started with MicroPython on Raspberry Pi Pico by Gareth Halfacree and Ben Everard, published by
+Raspberry Pi Press.
+
+* TIP
+For more information on the C/C++ SDK, along with API-level documentation, see the Raspberry Pi Pico C/C++ SDK
+book.
+
+
 2.1 Get the SDK and examples
 
 The pico-examples repository (https://github.com/raspberrypi/pico-examples) provides a set of example applications
