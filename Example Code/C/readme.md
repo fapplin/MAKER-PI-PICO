@@ -6,6 +6,65 @@ This is taken from the Raspberry Pi "Getting Started with Raspberry Pi Pico - C/
 https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf
 ```
 
+Quick Pico Setup
+
+If you are developing for Raspberry Pi Pico on the Raspberry Pi 4B, or the Raspberry Pi 400, most of the installation
+steps in this Getting Started guide can be skipped by running the setup script.
+
+* NOTE
+This setup script requires approximately 2.5GB of disk space on your SD card, so make sure you have enough free
+space before running it. You can check how much free disk space you have with the df -h command.
+
+You can get this script by running the following command in a terminal:
+
+```
+$ wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh ①
+```
+
+1. You should first sudo apt install wget if you don’t have wget already installed.
+Then make the script executable with,
+
+```
+$ chmod +x pico_setup.sh
+```
+
+and run it with,
+
+```
+$ ./pico_setup.sh
+```
+
+The script will:
+
+• Create a directory called pico
+• Install required dependencies
+• Download the pico-sdk, pico-examples, pico-extras, and pico-playground repositories
+• Define PICO_SDK_PATH, PICO_EXAMPLES_PATH, PICO_EXTRAS_PATH, and PICO_PLAYGROUND_PATH in your ~/.bashrc
+• Build the blink and hello_world examples in pico-examples/build/blink and pico-examples/build/hello_world
+• Download and build picotool (see Appendix B), and copy it to /usr/local/bin.
+• Download and build picoprobe (see Appendix A).
+• Download and compile OpenOCD (for debug support)
+• Download and install Visual Studio Code
+• Install the required Visual Studio Code extensions (see Chapter 7 for more details)
+• Configure the Raspberry Pi UART for use with Raspberry Pi Pico
+
+Getting started with Raspberry Pi Pico
+
+Chapter 1. Quick Pico Setup 4
+
+* NOTE
+The pico directory will be created in the folder where you run the pico_setup.sh script.
+
+Once it has run, you will need to reboot your Raspberry Pi,
+
+```
+$ sudo reboot
+```
+
+for the UART reconfiguration to take effect. Once your Raspberry Pi has rebooted you can open Visual Studio Code in
+the "Programming" menu and follow the instructions from Section 7.2.
+
+
 2.1 Get the SDK and examples
 
 The pico-examples repository (https://github.com/raspberrypi/pico-examples) provides a set of example applications
