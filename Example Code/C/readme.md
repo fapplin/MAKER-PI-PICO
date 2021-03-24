@@ -1,3 +1,5 @@
+Special Note:  All of the C examples were compiled on a Rasperry Pi Zero (any Raspberry Pi should work fine).
+
 This is taken from the Raspberry Pi "Getting Started with Raspberry Pi Pico - C/C++ Development with Raspberry Pi Pico and other RP2040-based microcontroller boards."
 
 ```
