@@ -1,4 +1,4 @@
-Special Note:  All of the C examples were compiled on a Rasperry Pi Zero (any Raspberry Pi should work fine).
+Special Note:  All of the C examples were compiled on a Rasperry Pi Zero (any Raspberry Pi should work fine). Each example has a build_project.sh file in the build directory that sets the SDK directory path, does the cmake .., and make. After the initial build, the developer can just use make to rebuild.
 
 This is taken from the Raspberry Pi "Getting Started with Raspberry Pi Pico - C/C++ Development with Raspberry Pi Pico and other RP2040-based microcontroller boards."
 
