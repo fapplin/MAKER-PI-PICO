@@ -5,6 +5,12 @@
 #include "pico/binary_info.h"
 #include "lcd_i2c.h"
 
+/PINS
+//LCD - Pico
+//SDA - GP2
+//SCK - GP3
+//VDD - 3V3
+//VSS - GND
 
 
 int main() 
