@@ -7,6 +7,7 @@ into your Arduino/Libraries directory (i.e. arduino-1.8.13/libraries/)
 
 You should connect your Pico to the LCM1602A-14 module as follows:
 
+
 LCM1602A-14            Maker Pi Pico
 VSS                    GND
 VDD                    3V3
