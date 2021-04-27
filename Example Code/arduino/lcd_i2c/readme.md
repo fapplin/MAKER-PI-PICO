@@ -1,7 +1,7 @@
 I don't need to re-invent the wheel for this one. Cytron has a library that works. Simply download the .ZIP,
-extract it to a directory, and then copy the directories:
+extract it to a directory, and then copy the directory:
 
-Arduino_LCD-I2C_library and  Arduino_LCD-SPI_library
+Arduino_LCD-I2C_library
 
 into your Arduino/Libraries directory (i.e. arduino-1.8.13/libraries/)
 
